@@ -42,7 +42,7 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
-.bento-menu {
+.dot-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -57,11 +57,11 @@ nav ul a:hover {
 
 }
 
-.bento-menu:hover {
+.dot-menu:hover {
   background-color:rgba(0,0,0,.1);
 }
 
-.bento-dot {
+.dot {
   width : 4px;
   height: 4px;
   border-radius: 50px;
@@ -79,6 +79,7 @@ nav ul a:hover {
   border-radius: 50px;
   color: white;
   font-size: 18px;
+  text-decoration: none;
 }
 
 section {
@@ -121,7 +122,7 @@ legend {
 } */
 
 .sicon {
-  fill: #70757a;
+  fill: #70757a !important;
 }
 
 .mic {
@@ -130,6 +131,11 @@ legend {
   align-items: center;
   width: 25px;
   height: 40px;
+  fill: blue !important;
+}
+
+.mic img {
+  fill: blue;
 }
 
 input {
@@ -158,9 +164,9 @@ button {
   border-radius: 3px;
   border: none;
   font-size: 16px;
-margin: 10px;
-padding: 8px 16px;
-color: #202124;
+  margin: 10px;
+  padding: 8px 16px;
+  color: #202124;
 }
 
 button:hover {
