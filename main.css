@@ -131,12 +131,9 @@ legend {
   align-items: center;
   width: 25px;
   height: 40px;
-  fill: blue !important;
 }
 
-.mic img {
-  fill: blue;
-}
+
 
 input {
   width: 85%;
@@ -218,3 +215,4 @@ footer ul :nth-of-type(4) {
 }
 
 
+/* comment to test git */
